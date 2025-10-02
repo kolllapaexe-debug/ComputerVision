@@ -26,7 +26,7 @@ cv2.putText(image, position_text, (180, 110), cv2.FONT_HERSHEY_SIMPLEX, 0.7, tex
 
 email_text = "Email: kolllapa.exe@gmail.com"
 phone_text = "Phone: +380 50 263 48 03"
-dob_text = "Date of Birth: 11/12/2009"
+dob_text = "Date of Birth: 12/11/2009"
 
 cv2.putText(image, email_text, (180, 170), cv2.FONT_HERSHEY_SIMPLEX, 0.6, text_color, 1, cv2.LINE_AA)
 cv2.putText(image, phone_text, (180, 200), cv2.FONT_HERSHEY_SIMPLEX, 0.6, text_color, 1, cv2.LINE_AA)
@@ -51,7 +51,7 @@ text_y = card_height - bottom_bar_height + (bottom_bar_height + text_height) // 
 
 cv2.putText(image, bottom_text, (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, 0.8, white_color, 2, cv2.LINE_AA)
 
-cv2.imwrite("iamges/business_card.png", image)
+cv2.imwrite("images/business_card.png", image)
 
 cv2.imshow("Business Card", image)
 cv2.waitKey(0)
