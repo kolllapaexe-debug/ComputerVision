@@ -51,8 +51,8 @@ text_y = card_height - bottom_bar_height + (bottom_bar_height + text_height) // 
 
 cv2.putText(image, bottom_text, (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, 0.8, white_color, 2, cv2.LINE_AA)
 
-cv2.imwrite("iamges/business_card.png", image)
+# cv2.imwrite("iamges/business_card.png", image)
 
-cv2.imshow("Business Card", image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# cv2.imshow("Business Card", image)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
