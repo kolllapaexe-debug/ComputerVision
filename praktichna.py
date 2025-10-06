@@ -18,7 +18,7 @@ profile_pic = cv2.imread(profile_pic_path)
 profile_pic_resized = cv2.resize(profile_pic, (120, 120))
 image[30:150, 30:150] = profile_pic_resized
 
-name_text = "OLEKSANDR IVANOV"
+name_text = "Baranov Yehor"
 cv2.putText(image, name_text, (180, 70), cv2.FONT_HERSHEY_SIMPLEX, 1.0, text_color, 2, cv2.LINE_AA)
 
 position_text = "SOFTWARE ENGINEER"
@@ -56,3 +56,4 @@ cv2.imwrite("images/business_card.png", image)
 cv2.imshow("Business Card", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
